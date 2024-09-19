@@ -1,0 +1,110 @@
+1 uname -a
+2 sudo apt update
+3 ls
+4 cat /etc/apt/sources.list
+5 sudo apt update vim
+6 sudo apt remove vim
+7 sudo apt install vim
+8 cd Downloads/
+9 man ls
+10 sudo unminimize
+11 sudo apt install man-db
+12 man ls
+13 sudo apt install man-db
+14 man ls
+15 sudo unminimize
+16 man ls
+17 ls -l
+18 dpkg -i somepackage.deb
+19 cd /
+20 sudo -i
+21 echo "hi all"
+22 echo "$PWD hi all here"
+23 touch hi.sh
+24 sudo touch hi.sh
+25 echo $PATH
+26 vi hi.sh
+27 ./hi.sh
+28 chmod +x hi.sh
+29 sudo chmod +x hi.sh
+30 sudo chmod 777 hi.sh
+31 ./hi.sh
+32 ./hi.sh Ukraine
+33 vi hi.sh
+34 ./hi.sh
+35 ./hi.sh Ukraine
+36 ls
+37 ls -d */ | grep "scripts"
+38 ls ~/Documents/
+39 mkdir ~/scripts
+40 cp ~/scripts/ ~/Documents/
+41 cp -r ~/scripts/ ~/Documents/
+42 cd ..
+43 cd ~/scripts/
+44 mv hi.sh
+45 mv hi.sh ..
+46 cd /
+47 ls
+48 mv hi.sh ~/scripts/
+49 sudo mv hi.sh ~/scripts/
+50 ls
+51 ls ~/scripts/
+52 cd ~/scripts/
+53 cd ..
+54 rm -r scripts/
+55 cd /bin
+56 ls -l
+57 cd ../..
+58 tar -cvf scripts.tar ~/scripts/
+59 sudo tar -cvf scripts.tar ~/scripts/
+60 mkdir ~/scripts/; touch ~/scripts/ hi.sh
+61 sudo mkdir ~/scripts/; touch ~/scripts/hi.sh
+62 ls ~/scripts/
+63 vi ~/scripts/hi.sh
+64 tar -cvf scripts.tar ~/scripts/
+65 sudo tar -cvf scripts.tar ~/scripts/
+66 cat ~/scripts/hi.sh
+67 cat /var/log/syslog
+68 tail -n 20 /var/log/syslog
+69 less /var/log/syslog
+70 cd /
+71 find . -name "dhcp"
+72 find . -name "dhcp*"
+73 grep -ir --color "dhcp" *
+74 ping 8.8.8.8
+75 ping 8.8.8.8 & date >> ~/scripts/log.txt
+76 ls -l
+77 cd /bin
+78 ls -la
+79 echo $PATH
+80 printenv
+81 whoami
+82 cd /etc/
+83 ls
+84 cd ..
+85 cd /lib/
+86 ls
+87 sudo dmesg
+88 ls /dev
+89 df -h
+90 cd /home/
+91 ls -l
+92 lsmod
+93 /proc
+94 cd /proc
+95 ls
+96 cat cpuinfo
+97 echo 1> /proc/sys/net/ipv4/ip_forward
+98 ipconfig
+99 cd ~
+100 ls
+101 echo "vika" > /scripts/1.txt
+102 echo "vika" > scripts/1.txt
+103 echo "vasyl" > scripts/2.txt
+104 cat scripts/2.txt
+105 diff scripts/1.txt scripts/2.txt
+106 history
+107 ispci
+108 Ispci
+109 lspci
+110 history > scripts/history.txt

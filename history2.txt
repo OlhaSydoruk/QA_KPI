@@ -1,0 +1,23 @@
+1 ping google.com
+2 bg
+3 fg
+4 ping google.com
+5 bg
+6. fg
+7 ps aux | grep ping
+8 kill -15 12064
+9 kill -15 409192
+10 ps aux
+11 ps aux | grep ping
+12. kill google.com
+13 kill 409192
+14 ps aux | grep ping
+15 ps -p 13235 -o pid, user, %cpu, cmd
+16 kill 13235
+17 sudo kill 409192
+18 ps aux | grep ping
+19 sudo pkill vic
+20 ls
+21 ls c
+22 ls scripts/
+23 history > scripts/history2.txt
